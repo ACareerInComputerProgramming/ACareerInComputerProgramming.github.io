@@ -46,7 +46,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .title {
-    font-size: 5px;
+    font-size: 7px;
   }
   
   .creditLine {
@@ -60,7 +60,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .title {
-    font-size: 3px;
+    font-size: 5px;
   }
   .creditLine {
     font-size: 10px;
