@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+}
+
+.title {
+  font-size: 8px;
+  color: #00ff08;
+
+}
+
+.topLine {
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+  border-bottom-style: dotted;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+}
+
+.creditLine {
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+  border-bottom-style: dotted;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  font-size: 18px;
+  color: #00ff08;
+}
+
+.Paragraph {
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+  border-bottom-style: dotted;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  font-size: 18px;
+  color: #00ff08;
+}
+
+@media only screen and (max-width: 1000px) {
+  .title {
+    font-size: 5px;
+  }
+  
+  .creditLine {
+    font-size: 15px;
+  }
+  
+  .Paragraph{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 3px;
+  }
+  .creditLine {
+    font-size: 10px;
+  }
+  
+  .Paragraph {
+    font-size: 10px;
+  }
+}
