@@ -58,6 +58,7 @@ body {
 .clickMe {
   font-size: 12px;
   color: #00ff08;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1000px) {
